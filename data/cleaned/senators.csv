@@ -1,0 +1,41 @@
+,last_name,first_name,middle_name,gender,type,party,state,district,senate_class,name
+0,Tuberville,Tommy,Hawley,M,sen,Republican,AL,,2.0,Thomas H Tuberville
+1,Carper,Thomas,Richard,M,sen,Democrat,DE,,1.0,Thomas R Carper
+2,Capito,Shelley,Moore,F,sen,Republican,WV,,2.0,Shelley M Capito
+3,Hickenlooper,John,Wright,M,sen,Democrat,CO,,2.0,John W Hickenlooper
+4,Peters,Gary,C.,M,sen,Democrat,MI,,2.0,Gary C Peters
+5,King,Angus,S.,M,sen,Independent,ME,,1.0,"Angus S King, Jr."
+6,Hagerty,Bill,Francis,M,sen,Republican,TN,,2.0,"William F Hagerty, Iv"
+7,McConnell,Mitch,,M,sen,Republican,KY,,2.0,"A. Mitchell Mcconnell, Jr."
+8,Moran,Jerry,,M,sen,Republican,KS,,3.0,"Jerry Moran,"
+9,Boozman,John,,M,sen,Republican,AR,,3.0,John Boozman
+10,Wyden,Ron,,M,sen,Democrat,OR,,3.0,Ron L Wyden
+11,Duckworth,Tammy,,F,sen,Democrat,IL,,3.0,Tammy Duckworth
+12,Sullivan,Dan,,M,sen,Republican,AK,,2.0,Daniel S Sullivan
+13,Toomey,Patrick,J.,M,sen,Republican,PA,,3.0,Patrick J Toomey
+14,Inhofe,James,M.,M,sen,Republican,OK,,2.0,James M Inhofe
+15,Collins,Susan,M.,F,sen,Republican,ME,,2.0,Susan M Collins
+16,Roberts,Pat,,M,sen,Republican,KS,,2.0,Pat Roberts
+17,Rosen,Jacky,,F,sen,Democrat,NV,,1.0,Jacklyn S Rosen
+18,Cassidy,Bill,,M,sen,Republican,LA,,2.0,William Cassidy
+19,Whitehouse,Sheldon,,M,sen,Democrat,RI,,1.0,Sheldon Whitehouse
+20,Loeffler,Kelly,,F,sen,Republican,GA,,3.0,Kelly Loeffler
+21,Kaine,Timothy,,M,sen,Democrat,VA,,1.0,Timothy M Kaine
+22,Perdue,David,,M,sen,Republican,GA,,2.0,"David A Perdue , Jr"
+23,Smith,Tina,Flint,F,sen,Democrat,MN,,2.0,Tina Smith
+24,Hoeven,John,,M,sen,Republican,ND,,3.0,John Hoeven
+25,Kennedy,John,Neely,M,sen,Republican,LA,,3.0,John N Kennedy
+26,Cruz,Ted,,M,sen,Republican,TX,,1.0,Rafael E Cruz
+27,Coons,Christopher,Andrew,M,sen,Democrat,DE,,2.0,Christopher A Coons
+28,Udall,Tom,S.,M,sen,Democrat,NM,,2.0,Thomas Udall
+29,Reed,John,F.,M,sen,Democrat,RI,,2.0,John F Reed
+30,Warner,Mark,R.,M,sen,Democrat,VA,,2.0,Mark R Warner
+31,Tillis,Thom,,M,sen,Republican,NC,,2.0,Thomas R Tillis
+32,Casey,Robert,P.,M,sen,Democrat,PA,,1.0,"Robert P Casey, Jr."
+33,Bennet,Michael,F.,M,sen,Democrat,CO,,3.0,Michael F Bennet
+34,Murray,Patty,,F,sen,Democrat,WA,,3.0,Patty Murray
+35,Manchin,Joe,,M,sen,Democrat,WV,,1.0,"Joseph Manchin, Iii"
+36,Van Hollen,Chris,,M,sen,Democrat,MD,,3.0,Chris Van Hollen
+37,Cornyn,John,,M,sen,Republican,TX,,2.0,John Cornyn
+38,Cantwell,Maria,,F,sen,Democrat,WA,,1.0,Maria Cantwell
+39,Enzi,Michael,B.,M,sen,Republican,WY,,2.0,Michael B Enzi
