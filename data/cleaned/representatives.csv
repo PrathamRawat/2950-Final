@@ -1,0 +1,103 @@
+,last_name,first_name,middle_name,gender,type,party,state,district,senate_class,name
+0,Foxx,Virginia,,F,rep,Republican,NC,5.0,,Virginia Foxx
+1,Lowenthal,Alan,S.,M,rep,Democrat,CA,47.0,,Alan S. Lowenthal
+2,Lee,Susie,,F,rep,Democrat,NV,3.0,,Susie Lee
+3,Brooks,Mo,,M,rep,Republican,AL,5.0,,Mo Brooks
+4,McCaul,Michael,T.,M,rep,Republican,TX,10.0,,Michael T. McCaul
+5,DelBene,Suzan,K.,F,rep,Democrat,WA,1.0,,Suzan K. DelBene
+6,Gianforte,Greg,,M,rep,Republican,MT,0.0,,Greg Gianforte
+7,Blumenauer,Earl,,M,rep,Democrat,OR,3.0,,Earl Blumenauer
+8,Comer,James,,M,rep,Republican,KY,1.0,,James Comer
+9,Frankel,Lois,,F,rep,Democrat,FL,21.0,,Lois Frankel
+10,Langevin,James,R.,M,rep,Democrat,RI,2.0,,James R. Langevin
+11,Gottheimer,Josh,,M,rep,Democrat,NJ,5.0,,Josh Gottheimer
+12,Clark,Katherine,M.,F,rep,Democrat,MA,5.0,,Katherine M. Clark
+13,McKinley,David,B.,M,rep,Republican,WV,1.0,,David B. McKinley
+14,Pelosi,Nancy,,F,rep,Democrat,CA,12.0,,Nancy Pelosi
+15,Cohen,Steve,,M,rep,Democrat,TN,9.0,,Steve Cohen
+16,Connolly,Gerald,E.,M,rep,Democrat,VA,11.0,,Gerald E. Connolly
+17,Manning,Kathy,Ellen,F,rep,Democrat,NC,6.0,,Kathy Manning
+18,Steube,W.,Gregory,M,rep,Republican,FL,17.0,,Greg Steube
+19,Beyer,Donald,S.,M,rep,Democrat,VA,8.0,,Donald Sternoff Beyer
+20,Newman,Marie,,F,rep,Democrat,IL,3.0,,Marie Newman
+21,Green,Mark,E.,M,rep,Republican,TN,7.0,,Mark Green
+22,Wittman,Robert,J.,M,rep,Republican,VA,1.0,,Robert J. Wittman
+23,Khanna,Ro,,M,rep,Democrat,CA,17.0,,Rohit Khanna
+24,Curtis,John,R.,M,rep,Republican,UT,3.0,,John Curtis
+25,Doggett,Lloyd,A.,M,rep,Democrat,TX,35.0,,Lloyd Doggett
+26,Meng,Grace,,F,rep,Democrat,NY,6.0,,Grace Meng
+27,Allen,Rick,W.,M,rep,Republican,GA,12.0,,Richard W. Allen
+28,Dingell,Debbie,,F,rep,Democrat,MI,12.0,,Debbie Dingell
+29,Kelly,Mike,,M,rep,Republican,PA,16.0,,Mike Kelly
+30,Dunn,Neal,P.,M,rep,Republican,FL,2.0,,Neal P. Dunn
+31,Lamborn,Doug,,M,rep,Republican,CO,5.0,,Doug Lamborn
+32,Visclosky,Peter,J.,M,rep,Democrat,IN,1.0,,Peter J. Visclosky
+33,Phillips,Dean,,M,rep,Democrat,MN,3.0,,Dean Phillips
+34,Welch,Peter,,M,rep,Democrat,VT,0.0,,Peter Welch
+35,Jeffries,Hakeem,S.,M,rep,Democrat,NY,8.0,,Hakeem S. Jeffries
+36,Lofgren,Zoe,,F,rep,Democrat,CA,19.0,,Zoe Lofgren
+37,Fleischmann,Charles,J.,M,rep,Republican,TN,3.0,,"Charles J. ""Chuck"" Fleischmann"
+38,Pfluger,August,Lee,M,rep,Republican,TX,11.0,,August Lee Pfluger
+39,Mast,Brian,J.,M,rep,Republican,FL,18.0,,Brian Mast
+40,Banks,Jim,,M,rep,Republican,IN,3.0,,James E. Banks
+41,Hern,Kevin,R.,M,rep,Republican,OK,1.0,,Kevin Hern
+42,Franklin,C.,Scott,M,rep,Republican,FL,15.0,,Scott Franklin
+43,Schneider,Bradley,Scott,M,rep,Democrat,IL,10.0,,Bradley S. Schneider
+44,Upton,Fred,Stephen,M,rep,Republican,MI,6.0,,Fred Upton
+45,Gonzalez,Anthony,,M,rep,Republican,OH,16.0,,Anthony E. Gonzalez
+46,Cisneros,Gilbert,Ray,M,rep,Democrat,CA,39.0,,Gilbert Cisneros
+47,Davis,Susan,A.,F,rep,Democrat,CA,53.0,,Susan A. Davis
+48,Conaway,K.,Michael,M,rep,Republican,TX,11.0,,K. Michael Conaway
+49,Yarmuth,John,A.,M,rep,Democrat,KY,3.0,,John A. Yarmuth
+50,Price,David,E.,M,rep,Democrat,NC,4.0,,David E. Price
+51,Taylor,Van,,M,rep,Republican,TX,3.0,,Nicholas Van Taylor
+52,Greene,Marjorie,Taylor,F,rep,Republican,GA,14.0,,Marjorie Taylor Greene
+53,Courtney,Joe,,M,rep,Democrat,CT,2.0,,Joe Courtney
+54,Evans,Dwight,,M,rep,Democrat,PA,3.0,,Dwight Evans
+55,Rice,Tom,,M,rep,Republican,SC,7.0,,Tom Rice
+56,Perlmutter,Ed,,M,rep,Democrat,CO,7.0,,Ed Perlmutter
+57,Wasserman Schultz,Debbie,,F,rep,Democrat,FL,23.0,,Debbie Wasserman Schultz
+58,Gibbs,Bob,,M,rep,Republican,OH,7.0,,Bob Gibbs
+59,Marshall,Roger,,M,sen,Republican,KS,,2.0,Roger W. Marshall
+60,Grijalva,Raúl,M.,M,rep,Democrat,AZ,3.0,,Raúl M. Grijalva
+61,Schrier,Kim,,F,rep,Democrat,WA,8.0,,Kim Schrier
+62,Sessions,Pete,A.,M,rep,Republican,TX,17.0,,Pete Sessions
+63,Gallagher,Mike,,M,rep,Republican,WI,8.0,,Michael John Gallagher
+64,Pallone,Frank,J.,M,rep,Democrat,NJ,6.0,,Frank Pallone
+65,Jacobs,Chris,,M,rep,Republican,NY,27.0,,Christopher L. Jacobs
+66,Castor,Kathy,,F,rep,Democrat,FL,14.0,,Kathy Castor
+67,Hinson,Ashley,,F,rep,Republican,IA,1.0,,Ashley Hinson Arenholz
+68,Simpson,Michael,K.,M,rep,Republican,ID,2.0,,Michael K. Simpson
+69,Ross,Deborah,Koff,F,rep,Democrat,NC,2.0,,Deborah K. Ross
+70,Guest,Michael,,M,rep,Republican,MS,3.0,,Michael Patrick Guest
+71,Latta,Robert,E.,M,rep,Republican,OH,5.0,,Robert E. Latta
+72,O’Halleran,Tom,,M,rep,Democrat,AZ,1.0,,Tom O'Halleran
+73,Rouzer,David,,M,rep,Republican,NC,7.0,,David Cheston Rouzer
+74,Kinzinger,Adam,,M,rep,Republican,IL,16.0,,Adam Kinzinger
+75,Shalala,Donna,E.,F,rep,Democrat,FL,27.0,,Donna Shalala
+76,Timmons,William,R.,M,rep,Republican,SC,4.0,,William R. Timmons
+77,Bustos,Cheri,,F,rep,Democrat,IL,17.0,,Cheri Bustos
+78,Marchant,Kenny,Ewell,M,rep,Republican,TX,24.0,,Kenny Marchant
+79,Matsui,Doris,O.,F,rep,Democrat,CA,6.0,,Doris O. Matsui
+80,Scott,Austin,,M,rep,Republican,GA,8.0,,Austin Scott
+81,Meuser,Daniel,,M,rep,Republican,PA,9.0,,Daniel Meuser
+82,Peters,Scott,H.,M,rep,Democrat,CA,52.0,,Scott H. Peters
+83,Trone,David,J.,M,rep,Democrat,MD,6.0,,David Trone
+84,Rutherford,John,H.,M,rep,Republican,FL,4.0,,John Rutherford
+85,Hill,J.,French,M,rep,Republican,AR,2.0,,James French Hill
+86,Kennedy,Joseph,P.,M,rep,Democrat,MA,4.0,,Joseph P. Kennedy
+87,Brooks,Susan,W.,F,rep,Republican,IN,5.0,,Susan W. Brooks
+88,Kustoff,David,,M,rep,Republican,TN,8.0,,David Kustoff
+89,Spanberger,Abigail,Davis,F,rep,Democrat,VA,7.0,,Abigail Spanberger
+90,Sánchez,Linda,T.,F,rep,Democrat,CA,38.0,,Linda T. Sanchez
+91,Miller,Carol,D.,F,rep,Republican,WV,3.0,,Carol Devine Miller
+92,Morelle,Joseph,D.,M,rep,Democrat,NY,25.0,,Joseph D. Morelle
+93,Schiff,Adam,B.,M,rep,Democrat,CA,28.0,,Adam B. Schiff
+94,Sherrill,Mikie,,F,rep,Democrat,NJ,11.0,,Mikie Sherrill
+95,Bilirakis,Gus,M.,M,rep,Republican,FL,12.0,,Gus M. Bilirakis
+96,Rouda,Harley,,M,rep,Democrat,CA,48.0,,Harley E. Rouda
+97,Pascrell,Bill,J.,M,rep,Democrat,NJ,9.0,,Bill Pascrell
+98,Luria,Elaine,G.,F,rep,Democrat,VA,2.0,,Elaine Luria
+99,Bice,Stephanie,I.,F,rep,Republican,OK,5.0,,Stephanie Bice
+100,Massie,Thomas,,M,rep,Republican,KY,4.0,,Thomas Massie
+101,Amash,Justin,,M,rep,Libertarian,MI,3.0,,Justin Amash
