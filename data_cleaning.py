@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 
 senate = pd.read_csv("data/raw/all_transactions.csv")  # senate
 
@@ -168,3 +169,83 @@ trading_representatives = trading_representatives.reset_index()
 trading_representatives = trading_representatives.drop("index", axis=1)
 
 trading_representatives.to_csv("data/cleaned/representatives.csv")
+
+st = pd.read_csv("data/cleaned/senator_trades.csv")
+si = pd.read_csv("data/cleaned/senators.csv")
+
+rt = pd.read_csv("data/cleaned/house_trades.csv")
+ri = pd.read_csv("data/cleaned/representatives.csv")
+st["sell_date"] = pd.to_datetime(st["sell_date"])
+st["transaction_date"] = pd.to_datetime(st["transaction_date"])
+st["holding_time"] = st["sell_date"] - st["transaction_date"]
+st["holding_time"] = st["holding_time"] / np.timedelta64(1, 'D')
+
+rt["sell_date"] = pd.to_datetime(rt["sell_date"])
+rt["transaction_date"] = pd.to_datetime(rt["transaction_date"])
+rt["representative"] = rt["representative"].str.split(" ", 1).str[1]
+rt["holding_time"] = rt["sell_date"] - rt["transaction_date"]
+rt["holding_time"] = rt["holding_time"] / np.timedelta64(1, 'D')
+br = rt.merge(ri, left_on="representative", right_on="name")
+bs = st.merge(si, left_on="senator", right_on="name")
+bs = bs.drop(columns=["Unnamed: 0_x", "Unnamed: 0_y", "type_x", "owner", "comment", "last_name", "first_name", "middle_name", "gender", "senate_class", "senator", "district"])
+br = br.drop(columns=["Unnamed: 0_x", "Unnamed: 0_y", "type_x", "owner", "cap_gains_over_200_usd", "last_name", "first_name", "middle_name", "gender", "senate_class", "representative", "district_x", "district_y", "buy_volume", "sell_volume"])
+con = bs.append(br)
+region_dict = {
+    "WA": "W",
+    "OR": "W",
+    "ID": "W",
+    "MT": "W",
+    "CO": "W",
+    "CA": "W",
+    "NV": "W",
+    "UT": "W",
+    "WY": "W",
+    "AK": "W",
+    "HI": "W",
+    "AZ": "SW",
+    "NM": "SW",
+    "TX": "SW",
+    "OK": "SW",
+    "ND": "MW",
+    "SD": "MW",
+    "NE": "MW",
+    "KS": "MW",
+    "MN": "MW",
+    "IA": "MW",
+    "MO": "MW",
+    "WI": "MW",
+    "IL": "MW",
+    "IN": "MW",
+    "MI": "MW",
+    "OH": "MW",
+    "AR": "SE",
+    "LA": "SE",
+    "MS": "SE",
+    "AL": "SE",
+    "GA": "SE",
+    "SC": "SE",
+    "FL": "SE",
+    "TN": "SE",
+    "KY": "SE",
+    "NC": "SE",
+    "VA": "SE",
+    "WV": "SE",
+    "MD": "NE",
+    "DC": "NE",
+    "PA": "NE",
+    "NY": "NE",
+    "NJ": "NE",
+    "DE": "NE",
+    "CT": "NE",
+    "MA": "NE",
+    "RI": "NE",
+    "VT": "NE",
+    "NH": "NE",
+    "ME": "NE"
+}
+con["region"] = con["state"].map(region_dict)
+con = con.drop(columns=["state", "transaction_year", "transaction_month", "transaction_day", "amount_lower", "amount_upper"])
+
+con = pd.read_csv("data/cleaned/con_sector.csv")
+con = con.drop(columns=["Unnamed: 0", "Unnamed: 0.1"])
+con.to_csv("data/cleaned/con.csv")
