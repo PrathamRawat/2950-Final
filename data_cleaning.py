@@ -37,6 +37,7 @@ house['transaction_month'] = pd.DatetimeIndex(house['transaction_date']).month
 house['transaction_day'] = pd.DatetimeIndex(house['transaction_date']).day
 house["amount_lower"] = pd.to_numeric( house["amount"].replace("Over ", "", regex=True).replace("\$", "", regex=True).replace(" -.*$", "", regex=True).replace(",", "", regex=True))
 house["amount_upper"] = pd.to_numeric( house["amount"].replace("Over ", "", regex=True).replace("-$", "- 0", regex=True).replace(".* - ", "", regex=True).replace("\$", "", regex=True).replace( ",", "", regex=True))
+
 house["representative"] = house["representative"].str.split(" ", 1).str[1]
 
 house.to_csv("data/cleaned/all_transactions_house.csv")
@@ -71,8 +72,6 @@ senators.loc[senators["name"] == "Robert P Casey", "name"] = "Robert P Casey, Jr
 senators.loc[senators["name"] == "Joe Manchin", "name"] = "Joseph Manchin, Iii"
 
 representatives["name"] = pd.DataFrame.copy(representatives.apply( lambda r: "{}{}{}".format(r["first_name"], " " if pd.isna(r["middle_name"]) else " {} ".format(r["middle_name"]), r["last_name"]), axis=1))
-
-representatives.to_csv("data/cleaned/badboys.csv")
 
 representatives.loc[representatives["name"] == "Abigail Davis Spanberger", "name"] = "Abigail Spanberger"
 representatives.loc[representatives["name"] == "Andrew R. Garbarino", "name"] = "Andrew Garbarino"
